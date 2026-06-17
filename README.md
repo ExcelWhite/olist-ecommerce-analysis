@@ -33,7 +33,7 @@ Queried using **Google BigQuery (Standard SQL)**.
 - The platform processed **99441** orders between **September, 2016** and **October, 2018**, with month-over-month revenue growth peaking at **108.68%** in **February, 2017** excluding extreme high outliers at the start of the business. Since then the business' percentage growth has been on a general decline.
 - Only **3.12%** of customers placed more than one order — repeat purchase behaviour is **low** for a marketplace of this size.
 - **12.93%** of platform revenue is concentrated in the top 10 sellers, indicating **high** seller concentration risk.
-- **8.11%** of orders were delivered after the estimated delivery date.
+- **91.89%** of orders were delivered before the estimated delivery date.
 - Customers in **Roraima** experienced average delivery times of **28.98 days**, the slowest in the country. 9 states have an average delivery days greater than 20 days..
 - **316** sellers had an on-time delivery rate below 80%, despite collectively generating **$677825.99** in revenue.
 - **113** sellers ranked in the top revenue quartile while also ranking in the bottom review-score quartile — these are the platform's highest financial-risk sellers.
