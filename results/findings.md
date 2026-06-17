@@ -10,14 +10,20 @@ Plain-English conclusions for each query, organized by act.
 - The platform processed **99,441 orders** between **September 2016** and **October 2018**.
 - TODO — strongest month (and order count) / weakest month (and order count): run Act 1, Q1 and sort by count.
 
+![Orders per month](screenshots/act1_q1_orders_per_month.png)
+
 **Month-over-month revenue change**
 - The platform's very first comparable month shows a month-over-month growth rate of roughly **65,000%** — not a meaningful trend, just the mathematical effect of comparing against a starting month with only a handful of orders. Any percentage change calculated against a tiny base will produce an extreme, distorted number like this.
 - Excluding that startup distortion, the **real peak growth was 108.68% in February 2017** — still strong, but a genuine reflection of early platform momentum rather than a math artifact.
 - Since that February 2017 peak, month-over-month growth has been on a **general decline** — consistent with a marketplace maturing out of its early hyper-growth phase into steadier, slower growth.
 
+![Month-over-month revenue change](screenshots/act1_q2_mom_revenue_change.png)
+
 **Total revenue per seller**
 - TODO — top seller's individual revenue: run Act 1, Q3 and take the top row.
 - The **top 10 sellers account for 12.93%** of total platform revenue. This is actually a **healthier spread than the typical concern threshold** (concentration risk usually gets flagged above ~25–30% for the top 10) — revenue is fairly distributed across Olist's seller base rather than dependent on a handful of accounts.
+
+![Top 10 sellers by revenue](screenshots/act1_q3_top_sellers.png)
 
 ---
 
@@ -30,10 +36,14 @@ Plain-English conclusions for each query, organized by act.
 **Revenue by state**
 - TODO — top state and its % of revenue, plus top 3 states combined %: run Act 2, Q2.
 
+![Revenue by state](screenshots/act2_q2_revenue_by_state.png)
+
 **Installments vs. paid in full**
 - Customers who paid in installments had an average order value of **$198.68**.
 - Customers who paid in full had an average order value of **$121.04**.
 - **Installment customers spend 64% more on average** than full-payment customers. This suggests installments are a meaningful purchasing lever — customers are willing to commit to larger purchases when the payment is spread out, which has direct implications for how Olist or its sellers might price and promote higher-ticket items.
+
+![Installments vs paid in full](screenshots/act2_q3_installments_vs_full.png)
 
 ---
 
@@ -47,8 +57,12 @@ Plain-English conclusions for each query, organized by act.
 - **Roraima** had the longest average delivery time at **28.98 days**.
 - **9 states** have an average delivery time greater than 20 days — meaning a meaningful chunk of Brazil's geography sits well above the platform norm, not just a single outlier state.
 
+![Slowest states by delivery time](screenshots/act3_q2_slowest_states.png)
+
 **Slowest product categories**
 - TODO — slowest category and its average delivery time: run Act 3, Q3.
+
+![Slowest product categories by shipping time](screenshots/act3_q3_slowest_categories.png)
 
 ---
 
@@ -65,6 +79,8 @@ Plain-English conclusions for each query, organized by act.
 - **113 sellers** fall into the top revenue quartile while also sitting in the bottom review-score quartile.
 - These sellers are generating strong revenue today but are actively accumulating reputational risk — they are the platform's clearest candidates for a seller-performance intervention before satisfaction issues compound into churn.
 
+![High-revenue, low-rating sellers risk scatter plot](screenshots/act4_q3_risk_sellers_scatter.png)
+
 ---
 
 ## Act 5 — Customer Experience
@@ -72,12 +88,18 @@ Plain-English conclusions for each query, organized by act.
 **Review scores by category**
 - TODO — lowest-scoring category and its score / highest-scoring category and its score: run Act 5, Q1.
 
+![Average review score by category](screenshots/act5_q1_review_score_by_category.png)
+
 **Late delivery vs. review score**
 - TODO — average review score for late orders vs. average review score for on-time orders, and the resulting gap: run Act 5, Q2.
+
+![Late delivery vs review score](screenshots/act5_q2_late_vs_ontime_score.png)
 
 **Delay on 1-star reviews**
 - Orders that received a 1-star review were delivered an average of **12.36 days later** than the platform average delivery time.
 - This is the clearest single data point in the entire analysis connecting operations to customer sentiment — a 12+ day delay is not a minor inconvenience, it is the kind of gap that turns a customer into a detractor.
+
+![Delivery delay by star rating](screenshots/act5_q3_delay_by_star_rating.png)
 
 ---
 
