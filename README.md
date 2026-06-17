@@ -26,6 +26,13 @@ Olist is a Brazilian marketplace that connects small businesses to major retail 
 
 Queried using **Google BigQuery (Standard SQL)**.
 
+**Database schema:**
+ 
+![Database schema diagram](assets/schema.png)
+
+`orders` sits at the center of the schema, linking out to customers, payments, and reviews directly, and to products and sellers through `order_items`.
+
+
 ## Key Findings
 
 > Replace the bracketed values below with your actual results once queries are run.
