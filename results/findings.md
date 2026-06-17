@@ -8,7 +8,7 @@ Plain-English conclusions for each query, organized by act.
 
 **Orders placed per month**
 - The platform processed **99,441 orders** between **September 2016** and **October 2018**.
-- TODO — strongest month (and order count) / weakest month (and order count): run Act 1, Q1 and sort by count.
+- Act 1, Q1 — strongest month (and its order count) / weakest month (and its order count).
 
 ![Orders per month](screenshots/act1_q1_orders_per_month.png)
 
@@ -20,7 +20,7 @@ Plain-English conclusions for each query, organized by act.
 ![Month-over-month revenue change](screenshots/act1_q2_mom_revenue_change.png)
 
 **Total revenue per seller**
-- TODO — top seller's individual revenue: run Act 1, Q3 and take the top row.
+- Act 1, Q3 — the top individual seller's revenue.
 - The **top 10 sellers account for 12.93%** of total platform revenue. This is actually a **healthier spread than the typical concern threshold** (concentration risk usually gets flagged above ~25–30% for the top 10) — revenue is fairly distributed across Olist's seller base rather than dependent on a handful of accounts.
 
 ![Top 10 sellers by revenue](screenshots/act1_q3_top_sellers.png)
@@ -34,8 +34,7 @@ Plain-English conclusions for each query, organized by act.
 - This is **low** for an e-commerce marketplace — typical repeat-purchase benchmarks sit in the 20–30% range. This is one of the most important findings in the whole analysis: Olist is overwhelmingly a **one-time-purchase platform**, which has direct implications for customer acquisition cost and lifetime value.
 
 **Revenue by state**
-- TODO — top state and its % of revenue, plus top 3 states combined %: run Act 2, Q2.
-
+- Act 2, Q2 — top state's % of revenue, plus the top 3 states combined %.
 ![Revenue by state](screenshots/act2_q2_revenue_by_state.png)
 
 **Installments vs. paid in full**
@@ -60,7 +59,7 @@ Plain-English conclusions for each query, organized by act.
 ![Slowest states by delivery time](screenshots/act3_q2_slowest_states.png)
 
 **Slowest product categories**
-- TODO — slowest category and its average delivery time: run Act 3, Q3.
+- Act 3, Q3 — slowest product category and its average delivery time.
 
 ![Slowest product categories by shipping time](screenshots/act3_q3_slowest_categories.png)
 
@@ -69,7 +68,7 @@ Plain-English conclusions for each query, organized by act.
 ## Act 4 — Seller Performance
 
 **High-volume sellers**
-- TODO — count of sellers who fulfilled more than 100 orders: run Act 4, Q1.
+- Act 4, Q1 — count of sellers who fulfilled more than 100 orders
 
 **Underperforming sellers**
 - **316 sellers** had an on-time delivery rate below 80%.
@@ -86,12 +85,12 @@ Plain-English conclusions for each query, organized by act.
 ## Act 5 — Customer Experience
 
 **Review scores by category**
-- TODO — lowest-scoring category and its score / highest-scoring category and its score: run Act 5, Q1.
+- Act 5, Q1 — lowest-scoring category + its score, highest-scoring category + its score.
 
 ![Average review score by category](screenshots/act5_q1_review_score_by_category.png)
 
 **Late delivery vs. review score**
-- TODO — average review score for late orders vs. average review score for on-time orders, and the resulting gap: run Act 5, Q2.
+- Act 5, Q2 — average review score for late orders vs. average review score for on-time orders.
 
 ![Late delivery vs review score](screenshots/act5_q2_late_vs_ontime_score.png)
 
